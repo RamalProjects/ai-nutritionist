@@ -1,0 +1,33 @@
+@use '../../variables' as v;
+
+.ingredient-base-container {
+    text-align: center;
+    padding: 50px;
+
+    .instructions {
+        text-align: left;
+        padding: 30px;
+        min-height: 0px;
+        max-height: 500px;
+        overflow-y: auto;   
+    }
+
+    .instructions::-webkit-scrollbar {
+        height: 40px;
+        width: 5px;
+    }
+
+    .instructions::-webkit-scrollbar-track {
+        height: 50px;
+    }
+    
+
+    .instructions::-webkit-scrollbar-thumb {
+        background: #545454;
+        border-radius: 2px;
+    }
+
+    .instructions::-webkit-scrollbar-thumb:hover {
+        background: #696868; 
+    }
+}

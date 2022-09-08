@@ -1,0 +1,37 @@
+@use 'variables' as v;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: v.$white;
+    height: 100vh;
+}
+
+#root {
+    height: 100vh;
+}
+
+h1, h2, h3, p {
+    color: v.$text;
+}
+
+a {
+    color: v.$text;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,25 @@
+@use '../../variables' as v;
+
+.sidebar-container {
+    padding: 10px 50px;
+
+    h1 {
+        color: v.$primary;
+    }
+
+    .navigation-links {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+    }
+
+    button {
+        border: none;
+        padding: 0;
+        background: none;
+        
+        a {
+            font-size: 1.3em;
+            color: v.$primary;
+        }
+    }
+}

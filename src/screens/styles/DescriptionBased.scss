@@ -1,0 +1,29 @@
+.description-based-container {
+    text-align: center;
+
+    .ingredients {
+        padding: 30px;
+        min-height: 0px;
+        max-height: 500px;
+        overflow-y: auto;   
+    }
+
+    .ingredients::-webkit-scrollbar {
+        height: 40px;
+        width: 5px;
+    }
+
+    .ingredients::-webkit-scrollbar-track {
+        height: 50px;
+    }
+    
+
+    .ingredients::-webkit-scrollbar-thumb {
+        background: #545454;
+        border-radius: 2px;
+    }
+
+    .ingredients::-webkit-scrollbar-thumb:hover {
+        background: #696868; 
+    }
+}

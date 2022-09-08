@@ -1,0 +1,7 @@
+@use '../../variables' as v;
+
+.line {
+    margin-top: 5px;
+    height: 5px;
+    background: v.$primary;
+}
